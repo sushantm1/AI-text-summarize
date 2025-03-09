@@ -1,4 +1,4 @@
-import { Summarizer } from "@/components/summarizer"
+import { Summarizer } from "../components/summarizer"
 
 export default function Home() {
   return (
@@ -13,8 +13,6 @@ export default function Home() {
               Transform lengthy content into concise, meaningful summaries with the power of AI.
             </p>
           </div>
-
-          <Summarizer />
         </div>
       </div>
     </div>
